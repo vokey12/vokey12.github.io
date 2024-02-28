@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>karimaboys</title>
+    <link rel="stylesheet" href="karima.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+<body>
+
+
+    <section class="sub-header">
+       
+        <nav>
+            <a href="#"><img src="C:\Users\HP\OneDrive\Desktop\WEB\download (5).jpeg" width="100%"  height="auto"></a>
+
+           
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="karima.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="photos.html">OUR PHOTOS</a></li>
+                </ul>
+            </div>
+
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+      <h1>Our Photo Gallery</h1>
+    </section>
+ 
+    <!----our photos content---->
+
+    <section>
+        <input type="radio" name="photos" id="check1" checked>
+        <input type="radio" name="photos" id="check2">
+        <input type="radio" name="photos" id="check3">
+        <input type="radio" name="photos" id="check4">
+
+        <div class="container">
+            <h1>EXPLORE OUR PHOTO ALBUM <i class="fa fa-camera"></i></h1>
+
+            <div class="top-content">
+
+                <h4>photo Gallery</h4>
+                <label for="check1">All photos</label>
+                <label for="check2">Form 1's&2's</label><!--family-->
+                
+                <label for="check3">Form 3's</label>  <!--child-->
+                <label for="check4">Form 4's</label> <!--place-->
+            </div>
+
+
+            <div class="photo-gallery">
+                <div class="pic place">
+                    <img src="C:\Users\HP\OneDrive\Desktop\WEB\download (8).jpeg">
+                </div>
+
+                <div class="pic family">
+                    <img src="C:\Users\HP\OneDrive\Desktop\WEB\download (7).jpeg">
+                </div>
+
+                <div class="pic child">
+                    <img src="C:\Users\HP\OneDrive\Desktop\WEB\images (1).jpeg">
+                </div>
+
+                <div class="pic place">
+                    <img src="C:\Users\HP\OneDrive\Desktop\WEB\images (2).jpeg">
+                </div>
+
+                <div class="pic child">
+                    <img src="C:\Users\HP\OneDrive\Desktop\WEB\images (3).jpeg">
+                </div>
+
+                <div class="pic child">
+                    <img src="C:\Users\HP\OneDrive\Desktop\WEB\images (4).jpeg">
+                </div>
+
+                <div class="pic family">
+                    <img src="C:\Users\HP\OneDrive\Desktop\WEB\images (5).jpeg">
+                </div>
+
+                <div class="pic place">
+                    <img src="C:\Users\HP\OneDrive\Desktop\WEB\images (6).jpeg">
+                </div>
+
+                <div class="pic family">
+                    <img src="C:\Users\HP\OneDrive\Desktop\WEB\images (7).jpeg">
+                </div>
+
+                <div class="pic place">
+                    <img src="C:\Users\HP\OneDrive\Desktop\WEB\images (8).jpeg">
+                </div>
+
+                <div class="pic child">
+                    <img src="C:\Users\HP\OneDrive\Desktop\WEB\download (6).jpeg">
+                </div>
+
+                <div class="pic child">
+                    <img src="C:\Users\HP\OneDrive\Desktop\WEB\download (1).jpeg">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-----footer---->
+
+    <section class="footer">
+     <h4>About us</h4>
+     <p>
+        "Vo_Tech, a leading tech company,<br> pioneers innovation with cutting-edge solutions, revolutionizing industries worldwide with its advanced technologies."
+
+     </p>
+
+     <div class="icons">
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter-square"></i>
+        
+     </div>
+
+     <p>Made with <i class="fa fa-heart"></i>  by vo_tech</p>
+     <p><i class="fa fa-copyright"></i>vokey.  all rights reserved</p>
+    </section>
+
+
+
+    <!------javascript for toggle menu------>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+</html>
